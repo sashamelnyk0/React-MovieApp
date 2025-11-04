@@ -1,16 +1,41 @@
-# React + Vite
+# CineInfo - Movie Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![CineInfo App Screenshot1](./assets/screen1.jpg)
+![CineInfo App Screenshot2](./assets/screen2.jpg)
+![CineInfo App Screenshot2](./assets/screen3.jpg)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a dynamic, multi-page web application for searching, discovering, and favoriting movies, built with a modern React stack. This project was built to demonstrate a complete understanding of frontend technologies, from data fetching and state management to UI and routing.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* **Movie Search:** Fetch movies from a live API as the user types.
+* **Dynamic Pages:** Click any movie to see a dedicated details page (e.g., `/movie/123`).
+* **Favorites System:** Add or remove movies from a "favorites" list.
+* **Persistent State:** User's favorites are saved in `localStorage` (via Zustand) and are not lost on refresh.
+* **Responsive Design:** A clean, responsive UI that works on desktop and mobile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* **Frontend:** React, JavaScript
+* **UI Library:** Material-UI (MUI)
+* **Routing:** React Router
+* **Data Fetching:** React Query (TanStack Query)
+* **Global State:** Zustand
+* **API:** The Movie Database (TMDB)
+* **Build Tool:** Vite
+
+---
+
+## How to Run Locally
+
+1.  Clone the repository:
+    `git clone https://github.com/sashamelnyk0/movie-app.git`
+2.  Install dependencies:
+    `npm install`
+3.  Run the development server:
+    `npm run dev`
