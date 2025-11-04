@@ -1,8 +1,8 @@
 # CineInfo - Movie Discovery App
 
-![CineInfo App Screenshot1](./assets/screen1.jpg)
-![CineInfo App Screenshot2](./assets/screen2.jpg)
-![CineInfo App Screenshot2](./assets/screen3.jpg)
+![CineInfo App Screenshot1](./src/assets/screen1.jpg)
+![CineInfo App Screenshot2](./src/assets/screen2.jpg)
+![CineInfo App Screenshot3](./src/assets/screen3.jpg)
 
 
 This is a dynamic, multi-page web application for searching, discovering, and favoriting movies, built with a modern React stack. This project was built to demonstrate a complete understanding of frontend technologies, from data fetching and state management to UI and routing.
