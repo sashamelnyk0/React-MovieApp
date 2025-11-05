@@ -1,5 +1,7 @@
 # CineInfo - Movie Discovery App
 
+**[View Live Demo](https://vercel.com/oleksandrs-projects-79c3ab2b/react-movie-app)**
+
 ![CineInfo App Screenshot1](./src/assets/screen1.jpg)
 ![CineInfo App Screenshot2](./src/assets/screen2.jpg)
 ![CineInfo App Screenshot3](./src/assets/screen3.jpg)
